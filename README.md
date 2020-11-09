@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-hosts
+npm i -S @jswork/ushell-module-hosts
 ```
 
 ## aliyun-github-slow

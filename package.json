@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/ushell-module-hosts",
+  "name": "@jswork/ushell-module-hosts",
   "version": "1.0.0",
   "description": "Unix like shell module for hosts.",
   "main": "index.sh",
@@ -9,10 +9,10 @@
   },
   "keywords": [
     "ushell",
-    "unix",
-    "shell",
-    "system",
-    "infomation"
+    "hosts",
+    "mac",
+    "ubuntu",
+    "alias"
   ],
   "author": "afei",
   "license": "MIT",
