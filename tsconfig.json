@@ -9,8 +9,12 @@
     "esModuleInterop": true,
     "skipDefaultLibCheck": true,
     "module": "es2015",
-    "moduleResolution": "Node16",
-    "noImplicitAny": false
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "lib": [
+      "dom",
+      "es5",
+    ]
   },
   "include": [
     "src",

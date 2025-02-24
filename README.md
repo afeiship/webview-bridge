@@ -13,11 +13,15 @@ npm install @jswork/webview-bridge
 
 ## usage
 ```js
-import webviewBridge from '@jswork/webview-bridge';
+import {callHandler, registerHandler} from '@jswork/webview-bridge'
 
-webviewBridge(1024);
+// callHandler
+callHandler('closeWindow', {name: 'test'})
 
-// [1000, 0, 20, 4]
+// registerHandler
+registerHandler('closeWindow', (data) => {
+  console.log(data)
+})
 ```
 
 ## license
