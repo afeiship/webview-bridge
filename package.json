@@ -1,6 +1,6 @@
 {
-  "name": "webview-bridge",
-  "version": "1.0.0",
+  "name": "@jswork/webview-bridge",
+  "version": "1.0.1",
   "description": "Webview bridge.",
   "type": "module",
   "npmClient": "pnpm",
@@ -38,8 +38,10 @@
   },
   "homepage": "https://js.work",
   "keywords": [
-    "webview-bridge",
-    "number",
-    "num"
+    "android",
+    "bridge",
+    "h5",
+    "ios",
+    "webview"
   ]
 }
