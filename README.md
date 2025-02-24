@@ -1,21 +1,36 @@
-# ushell-module-hosts
-> Unix like shell module for hosts.
+# webview-bridge
+> Webview bridge.
+
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
 ## installation
 ```shell
-npm i -S @jswork/ushell-module-hosts
+npm install @jswork/webview-bridge
 ```
 
-## aliyun-github-slow
-+ check the best dns:
-```conf
-http://tool.chinaz.com/dns
-```
-+ add this to hosts file(use the best dns):
-```conf
-103.245.222.249   github.global.ssl.fastly.net
-103.245.222.133   assets-cdn.github.com
+## usage
+```js
+import webviewBridge from '@jswork/webview-bridge';
+
+webviewBridge(1024);
+
+// [1000, 0, 20, 4]
 ```
 
-## resources
-- https://yq.aliyun.com/articles/36744
+## license
+Code released under [the MIT license](https://github.com/afeiship/webview-bridge/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/webview-bridge
+[version-url]: https://npmjs.org/package/@jswork/webview-bridge
+
+[license-image]: https://img.shields.io/npm/l/@jswork/webview-bridge
+[license-url]: https://github.com/afeiship/webview-bridge/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/webview-bridge
+[size-url]: https://github.com/afeiship/webview-bridge/blob/master/dist/webview-bridge.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/webview-bridge
+[download-url]: https://www.npmjs.com/package/@jswork/webview-bridge
