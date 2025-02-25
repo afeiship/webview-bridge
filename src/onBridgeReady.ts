@@ -3,22 +3,12 @@ const onBridgeReady = () => {
     // android
     function onBridgeReady() {
       document.removeEventListener('WebViewJavascriptBridgeReady', onBridgeReady);
-
-      console.error(
-        `<<WebviewBridge>> current existEventListener window.WebViewJavascriptBridge ${window.WebViewJavascriptBridge}`
-      );
       resolve(window.WebViewJavascriptBridge);
     }
 
     if (window.WebViewJavascriptBridge) {
-      console.error(
-        `<<WebviewBridge>> current exist window.WebViewJavascriptBridge ${window.WebViewJavascriptBridge}`
-      );
       return resolve(window.WebViewJavascriptBridge);
     } else {
-      console.error(
-        `<<WebviewBridge>> current not exist window.WebViewJavascriptBridge ${window.WebViewJavascriptBridge}`
-      );
       document.addEventListener('WebViewJavascriptBridgeReady', onBridgeReady, false);
     }
 
